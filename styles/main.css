@@ -133,9 +133,6 @@
   font-size: 14px;
   color: #999999; }
 
-.asd {
-  height: 500px; }
-
 .second-page .primary_button {
   margin-top: 55px;
   margin-bottom: 105px; }
@@ -173,7 +170,7 @@
 .third-page-image-laptop {
   margin-top: 100px; }
 
-.third-page-underline {
+.underline {
   margin-top: 90px;
   border: 1px solid #E0E0E0; }
 
@@ -200,5 +197,83 @@
   font-weight: 400;
   font-size: 16px;
   color: #999999; }
+
+.fourth-section {
+  max-height: 490px;
+  background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4; }
+
+.fourth-section-title {
+  margin-top: 100px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  color: #FFFFFF; }
+
+.fourth-section-button {
+  margin-top: 90px; }
+
+.fourth-section-image-block {
+  margin-top: 70px; }
+
+.fourth-section-title-under-image {
+  margin-top: 30px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #000000; }
+
+.fourth-section-title-under-image .internal-text {
+  color: #4985FF; }
+
+.fourth-section-text-under-image {
+  margin: 30px 70px 0 0;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #999999; }
+
+.fourth-section-link-under-image {
+  margin-top: 30px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration-line: underline;
+  color: #4985FF; }
+
+.underline {
+  margin: 85px 0; }
+
+.fifth-section {
+  margin-top: 521px;
+  background: #F6F6F8; }
+
+.fifth-section-title {
+  padding-top: 100px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  color: #000000; }
+
+.fifth-section-text {
+  padding-top: 50px;
+  margin: 0 295px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #999999; }
+
+.fifth-section-image-block {
+  margin-top: 70px; }
+
+.fifth-section-button {
+  padding-bottom: 130px; }
 
 /*# sourceMappingURL=main.css.map */
