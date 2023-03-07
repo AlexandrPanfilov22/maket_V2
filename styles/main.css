@@ -3,9 +3,10 @@
   padding: 0;
   box-sizing: border-box; }
 
-.container-fluid {
+.main-page {
   min-height: 900px;
-  background: url("../img/main_background.png") no-repeat; }
+  background: url("../img/main_background.png") no-repeat;
+  background-size: cover; }
 
 .header {
   display: block;
@@ -278,7 +279,8 @@
 
 .sixth-section {
   max-height: 570px;
-  background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), url("../img/video_about_job_bcg.png");
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), url("../img/video_about_job_bcg.png") no-repeat;
+  background-size: cover;
   z-index: 1; }
 
 .sixth-section-title {
