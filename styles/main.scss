@@ -132,7 +132,19 @@ $gray: #999999;
   margin-top: 70px;
 }
 
+.second-page-block-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.second-page-text-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .external-rectangle {
+  display: inline-block;
+
   margin-top: 25px;
   width: 110px;
   height: 110px;
@@ -142,6 +154,7 @@ $gray: #999999;
 }
 
 .internal-rectangle {
+
   padding: 25px;
 
   width: 90px;
@@ -151,6 +164,8 @@ $gray: #999999;
 }
 
 .second-page-icon-title {
+  display: inline-block;
+
   margin: 70px 0 0 17px;
 
   font-family: 'Montserrat';
