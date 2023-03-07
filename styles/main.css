@@ -100,14 +100,6 @@
 .second-page-icon-sector {
   margin-top: 70px; }
 
-.second-page-block-container {
-  display: flex;
-  flex-direction: row; }
-
-.second-page-text-container {
-  display: flex;
-  flex-direction: column; }
-
 .external-rectangle {
   display: inline-block;
   margin-top: 25px;
