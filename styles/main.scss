@@ -88,9 +88,10 @@ $gray: #999999;
 
 .primary_button {
   display: block;
-  width: 200px;
+  min-width: 200px;
+  padding: 14px 36px;
 
-  padding: 14px 0px;
+  //padding: 14px 0px;
 
   background: #4985FF;
   box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
