@@ -346,6 +346,7 @@
 
 .about-us-section-feedback-input {
   display: inline-block;
+  width: 300px;
   padding: 11px 0px 11px 33px;
   font-family: 'Montserrat';
   font-style: normal;
@@ -360,6 +361,7 @@
 
 .about-us-section-feedback-input-btn {
   display: inline-block;
+  width: 190px;
   padding: 11px 36px 11px 26px;
   border: none;
   background: #4985FF;
