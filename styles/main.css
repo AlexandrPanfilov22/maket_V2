@@ -56,7 +56,7 @@
 
 .main-section-title {
   text-align: center;
-  margin: 20px 195px 0 195px;
+  margin-top: 20px;
   font-style: normal;
   font-weight: 800;
   font-size: 48px;
@@ -86,7 +86,6 @@
 
 .mobile-app-section-title {
   display: block;
-  margin: 0 290px;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -110,7 +109,7 @@
 
 .mobile-app-section-description {
   display: block;
-  margin: 50px 190px 0 190px;
+  margin: 50px 0px 0 0px;
   text-align: center; }
 
 .mobile-app-section-icon-container {
@@ -214,9 +213,6 @@
   font-size: 36px;
   color: #FFFFFF; }
 
-.services-section-button {
-  margin-top: 20px; }
-
 .services-section-cards {
   margin-top: 70px; }
 
@@ -226,6 +222,9 @@
   font-weight: 600;
   font-size: 18px;
   color: #000000; }
+
+.services-section-card-description {
+  margin-top: 30px; }
 
 .services-section-card-title .internal-text {
   color: #4985FF; }
@@ -257,7 +256,7 @@
 
 .ours-projects-section-description {
   text-align: center;
-  margin: 50px 190px 0 190px; }
+  margin-top: 50px; }
 
 .ours-projects-section-image {
   margin-top: 70px; }
