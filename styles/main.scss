@@ -10,6 +10,10 @@ $gray: #999999;
   font-family: 'Montserrat', sans-serif;
 }
 
+.container {
+  width: 1110px;
+}
+
 .main-section {
   min-height: 900px;
   background: url("../img/main_background.png") no-repeat;
@@ -17,9 +21,9 @@ $gray: #999999;
 
 }
 
-.header {
+.main-header {
   display: block;
-  padding: 40px 0px 40px 602px;
+  padding: 40px 0px 40px 500px;
   color: $white;
 }
 .header_elements{
@@ -124,23 +128,37 @@ $gray: #999999;
   color: #323232;
 }
 
-.mobile-app-section-description {
-  display: block;
-  margin: 50px 295px 0 295px;
-
+.description-text-16px {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
+  line-height: 25px;
+  color: #999999;
+}
+
+.description-text-14px {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
   text-align: center;
   color: #999999;
+}
+
+.mobile-app-section-description {
+  display: block;
+  margin: 50px 190px 0 190px;
+
+  text-align: center;
 }
 
 .mobile-app-section-icon-container {
   margin-top: 70px;
 }
 
-.external-rectangle {
-  display: inline-block;
+.mobile-app-section-icon-main-benefit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   margin-top: 25px;
   width: 110px;
@@ -150,14 +168,19 @@ $gray: #999999;
   border-radius: 50%;
 }
 
-.internal-rectangle {
-
+.mobile-app-section-icon-child-benefit {
   padding: 25px;
 
   width: 90px;
   height: 90px;
   border: 1px solid #4985FF;
   border-radius: 50%;
+}
+
+.mobile-app-section-icon {
+  width: 40px;
+  height: 40px;
+  background: url("../icons/chertej.png");
 }
 
 .mobile-app-section-icon-title {
@@ -172,12 +195,7 @@ $gray: #999999;
 }
 
 .mobile-app-section-icon-description {
-  margin: 12px 70px 0 17px;
-
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  color: #999999;
+  padding-right: 40px;
 }
 
 .mobile-app-section-btn {
@@ -229,7 +247,10 @@ $gray: #999999;
 
 .development-standards-section-icon {
   display: inline-block;
-  padding-bottom: 16px;
+
+  width: 30px;
+  height: 30px;
+  background: url("../icons/web-programming.png");
 }
 
 .development-standards-section-icon-title {
@@ -240,15 +261,6 @@ $gray: #999999;
   font-weight: 400;
   font-size: 36px;
   color: #000000;
-}
-
-.development-standards-section-icon-description {
-  margin: 0px 0 70px 0;
-
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  color: #999999;
 }
 
 .services-section {
@@ -288,15 +300,6 @@ $gray: #999999;
   color: #4985FF;
 }
 
-.services-section-card-description {
-  margin: 30px 70px 0 0;
-
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  color: #999999;
-}
-
 .services-section-card-link {
   margin-top: 30px;
 
@@ -312,7 +315,7 @@ $gray: #999999;
 }
 
 .ours-projects-section {
-  margin-top: 521px;
+  margin-top: 561px;
   background: #F6F6F8;
 }
 
@@ -329,14 +332,8 @@ $gray: #999999;
 }
 
 .ours-projects-section-description {
-  padding-top: 50px;
-  margin: 0 295px;
-
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
   text-align: center;
-  color: #999999;
+  margin: 50px 190px 0 190px;
 }
 
 .ours-projects-section-image {
@@ -382,7 +379,7 @@ $gray: #999999;
   text-align: center;
 
   min-height: 430px;
-  margin: 70px 175px 85px 175px;
+  margin: 70px 0px 85px 70px;
   padding: 165px 335px;
   background: url("../img/big_city.png") no-repeat;
   z-index: 2;
@@ -424,7 +421,7 @@ $gray: #999999;
 
 .feedback-container {
   margin-top: 250px;
-  padding: 85px 0;
+  padding: 15px 0;
 }
 
 .about-us-section-feedback-title {
@@ -437,12 +434,8 @@ $gray: #999999;
 
 .about-us-section-feedback-description {
   margin-top: 20px;
-
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
   text-align: center;
-  color: #999999;
+  text-align: center;
 }
 
 .about-us-section-feedback-input-container {
@@ -454,6 +447,13 @@ $gray: #999999;
 .about-us-section-feedback-input {
   display: inline-block;
   padding: 11px 0px 11px 33px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  color: #999999;
 
   background: #FFFFFF;
   border: 1px solid #F2F2F2;
@@ -481,6 +481,7 @@ $gray: #999999;
 
 .about-us-section-feedback-warning {
   margin: 35px 0 0 0;
+  padding-bottom: 85px;
 
   font-style: normal;
   font-weight: 400;
@@ -503,6 +504,9 @@ $gray: #999999;
 }
 
 .footer-msg {
+  &.footer-msg::before{
+    content: url("../icons/footer_msg.png");
+  }
   margin-top: 35px;
 
   font-style: normal;
@@ -510,12 +514,17 @@ $gray: #999999;
   font-size: 14px;
   color: #999999;
 
-    div{
+    a{
       margin-left: 15px;
+      color: #999999;
+      text-decoration: none;
     }
 }
 
 .footer-call {
+  &.footer-call::before{
+    content: url("../icons/footer_call.png");
+  }
   margin-top: 30px;
 
   font-style: normal;
@@ -523,12 +532,18 @@ $gray: #999999;
   font-size: 14px;
   color: #999999;
 
-  div{
+  a{
     margin-left: 15px;
+    color: #999999;
+    text-decoration: none;
   }
 }
 
 .footer-place {
+  &.footer-place::before{
+    content: url("../icons/footer_placeholder.png");
+  }
+
   margin-top: 30px;
 
   font-style: normal;
@@ -536,12 +551,18 @@ $gray: #999999;
   font-size: 14px;
   color: #999999;
 
-  div{
+  a{
     margin-left: 15px;
+    color: #999999;
+    text-decoration: none;
   }
 }
 
 .footer-content-items {
+  &.footer-content-items::before{
+    content: url("../icons/footer_right-arrow.png");
+  }
+
   margin-top: 30px;
 
   font-style: normal;
@@ -549,8 +570,11 @@ $gray: #999999;
   font-size: 14px;
   color: #999999;
 
-  div{
+  a {
+    display: block;
     margin-left: 10px;
+    color: #999999;
+    text-decoration: none;
   }
 }
 
