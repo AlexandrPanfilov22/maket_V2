@@ -513,6 +513,7 @@ $gray: #999999;
 .footer-msg {
   &.footer-msg::before{
     content: url("../icons/footer_msg.png");
+    padding-top: 4px;
   }
   margin-top: 35px;
 
@@ -531,6 +532,7 @@ $gray: #999999;
 .footer-call {
   &.footer-call::before{
     content: url("../icons/footer_call.png");
+    padding-top: 4px;
   }
   margin-top: 30px;
 
@@ -548,7 +550,8 @@ $gray: #999999;
 
 .footer-place {
   &.footer-place::before{
-    content: url("../icons/footer_placeholder.png");
+    padding-top: 4px;
+    content: url("../icons/footer_placeholder.png")
   }
 
   margin-top: 30px;

@@ -399,7 +399,8 @@
   font-size: 14px;
   color: #999999; }
   .footer-msg.footer-msg::before {
-    content: url("../icons/footer_msg.png"); }
+    content: url("../icons/footer_msg.png");
+    padding-top: 4px; }
   .footer-msg a {
     margin-left: 15px;
     color: #999999;
@@ -412,7 +413,8 @@
   font-size: 14px;
   color: #999999; }
   .footer-call.footer-call::before {
-    content: url("../icons/footer_call.png"); }
+    content: url("../icons/footer_call.png");
+    padding-top: 4px; }
   .footer-call a {
     margin-left: 15px;
     color: #999999;
@@ -425,6 +427,7 @@
   font-size: 14px;
   color: #999999; }
   .footer-place.footer-place::before {
+    padding-top: 4px;
     content: url("../icons/footer_placeholder.png"); }
   .footer-place a {
     margin-left: 15px;
