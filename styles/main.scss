@@ -665,6 +665,15 @@ $gray: #999999;
 
   .development-standards-section-title {
     margin-top: 0;
+    text-align: center;
+  }
+
+  .development-standards-section-link {
+    text-align: center;
+  }
+
+  .development-standards-section-descriprion {
+    text-align: center;
   }
 
   .development-standards-section-image {
@@ -750,10 +759,11 @@ $gray: #999999;
     width: 370px;
     padding: 40px;
     background-size: 100%;
+    margin-bottom: 40px;
   }
 
   .feedback-container {
-    margin-top: 110px;
+    margin-top: 40px;
     padding: 0;
   }
 
@@ -830,6 +840,15 @@ $gray: #999999;
 
   .development-standards-section-title {
     margin-top: 0;
+    text-align: center;
+  }
+
+  .development-standards-section-link {
+    text-align: center;
+  }
+
+  .development-standards-section-descriprion {
+    text-align: center;
   }
 
   .development-standards-section-image {
@@ -913,13 +932,14 @@ $gray: #999999;
 
   .about-us-section-img-video {
     margin: 0;
+    margin-bottom: 40px;
     width: 400px;
     padding: 40px;
     background-size: 100%;
   }
 
   .feedback-container {
-    margin-top: 110px;
+    margin-top: 30px;
     padding: 0;
   }
 
