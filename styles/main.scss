@@ -11,7 +11,7 @@ $gray: #999999;
 }
 
 .container {
-  width: 1110px;
+  max-width: 1110px;
 }
 
 .main-section {
@@ -112,7 +112,8 @@ $gray: #999999;
 }
 
 .mobile-app-section-container {
-  padding: 110px 0 105px 0;
+  padding-top: 105px;
+  padding-bottom: 105px;
 }
 
 .mobile-app-section-title {
@@ -209,7 +210,8 @@ $gray: #999999;
 }
 
 .development-standards-section-container {
-  padding: 80px 0 70px 0;
+  padding-top: 80px;
+  padding-bottom: 70px;
 }
 
 .development-standards-section-title {
@@ -219,6 +221,10 @@ $gray: #999999;
   font-weight: 700;
   font-size: 36px;
   color: #323232;
+}
+
+.development-standards-section-image {
+  text-align: end;
 }
 
 .development-standards-section-descriprion {
@@ -266,11 +272,14 @@ $gray: #999999;
 
 .services-section {
   max-height: 490px;
-  background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;;
+  background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
+
+  padding-top: 100px;
 }
 
-.services-section {
-  padding-top: 100px;
+.services-section-button {
+  align-self: center;
+  justify-content: end;
 }
 
 .services-section-title {
@@ -280,12 +289,9 @@ $gray: #999999;
   color: #FFFFFF;
 }
 
-//.services-section-button {
-//  margin-top: 20px;
-//}
-
 .services-section-cards {
   margin-top: 70px;
+  text-align: center;
 }
 
 .services-section-card-title {
@@ -325,7 +331,8 @@ $gray: #999999;
 }
 
 .ours-projects-section-container {
-  padding: 100px 0 130px 0;
+  padding-top: 100px;
+  padding-bottom: 130px;
 }
 
 .ours-projects-section-title {
@@ -359,7 +366,8 @@ $gray: #999999;
 }
 
 .about-us-section-container {
-  padding: 70px 0 85px 0;
+  padding-top: 70px;
+  padding-bottom: 85px;
 }
 
 .about-us-section-title {
@@ -383,7 +391,7 @@ $gray: #999999;
 .about-us-section-img-video {
   text-align: center;
 
-  min-height: 430px;
+  max-height: 430px;
   margin: 70px 0px 85px 70px;
   padding: 165px 335px;
   background: url("../img/big_city.png") no-repeat;
@@ -601,4 +609,346 @@ $gray: #999999;
   font-size: 13px;
   text-align: center;
   color: #999999;
+}
+
+@media screen and (min-width: 480px) and (max-width: 576px){
+  //.container {
+  //  max-width: 470px;
+  //}
+
+  .main-section {
+    min-height: 480px;
+  }
+
+  .main-header {
+    display: none;
+  }
+
+  .touch-line {
+    display: none;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .main-section-description {
+    margin: 0;
+    padding-top: 60px;
+  }
+
+  .main-section-title {
+    font-size: 34px;
+  }
+
+  .mobile-app-section-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .mobile-app-section-icon-title {
+    margin-top: 30px;
+  }
+
+  .ours-projects-section-image-item {
+    margin-top: 20px;
+  }
+
+  .ours-projects-section-image-item img {
+    width: 220px;
+  }
+
+  .development-standards-section-container {
+    padding-top: 80px;
+    padding-bottom: 70px;
+  }
+
+  .development-standards-section-title {
+    margin-top: 0;
+  }
+
+  .development-standards-section-image {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 30px;
+  }
+
+  .development-standards-section-container img{
+    width: 300px;
+  }
+
+  .development-standards-section-icon-container{
+    text-align: center;
+  }
+
+  .development-standards-section-icon {
+    margin-top: 20px;
+  }
+
+  .development-standards-section-icon-title {
+    display: block;
+    margin: 0;
+  }
+
+  .services-section {
+    padding: 40px 0;
+  }
+
+  .services-section-title {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .services-section-button{
+    justify-content: center;
+
+    margin-top: 20px;
+  }
+
+  .services-section-card-link {
+    margin-bottom: 50px;
+  }
+
+  .underline {
+    margin: 50px 0;
+  }
+
+  .ours-projects-section {
+    margin-top: 1700px;
+  }
+
+  .ours-projects-section-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .about-us-section-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .about-us-section-feedback-input-container {
+    display: block;
+  }
+
+  .about-us-section-feedback-input {
+    display: block;
+    width: 70%;
+    border-radius: 30px;
+    margin: 0 auto;
+  }
+
+  .about-us-section-feedback-input-btn {
+    display: block;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .about-us-section-img-video {
+    width: 370px;
+    padding: 40px;
+    background-size: 100%;
+  }
+
+  .feedback-container {
+    margin-top: 110px;
+    padding: 0;
+  }
+
+  .about-us-section-underline {
+    margin: 50px 0 0 0;
+  }
+
+  .about-us-section-feedback-warning {
+    padding-bottom: 40px;
+  }
+
+  .ours-projects-section-image {
+    margin-top: 20px;
+  }
+
+  .ours-projects-section-description {
+    margin-top: 20px;
+  }
+
+  .about-us-section {
+    background-size: 100% 250px;
+  }
+
+  .about-us-section-video-btn {
+    border: none;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 479px) {
+
+
+  .main-section {
+    min-height: 480px;
+  }
+
+  .main-header {
+    display: none;
+  }
+
+  .touch-line {
+    display: none;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .main-section-description {
+    margin: 0;
+    padding-top: 60px;
+  }
+
+  .main-section-title {
+    font-size: 34px;
+  }
+
+  .mobile-app-section-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .mobile-app-section-icon-title {
+    margin-top: 30px;
+  }
+
+  .ours-projects-section-image-item {
+    margin-top: 20px;
+  }
+
+  .development-standards-section-container {
+    padding-top: 80px;
+    padding-bottom: 70px;
+  }
+
+  .development-standards-section-title {
+    margin-top: 0;
+  }
+
+  .development-standards-section-image {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 30px;
+  }
+
+  .development-standards-section-container img{
+    width: 300px;
+  }
+
+  .development-standards-section-icon-container{
+    text-align: center;
+  }
+
+  .development-standards-section-icon {
+    margin-top: 20px;
+  }
+
+  .development-standards-section-icon-title {
+    display: block;
+    margin: 0;
+  }
+
+  .services-section {
+    padding: 40px 0;
+  }
+
+  .services-section-title {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .services-section-button{
+    justify-content: center;
+
+    margin-top: 20px;
+  }
+
+  .services-section-card-link {
+    margin-bottom: 50px;
+  }
+
+  .underline {
+    margin: 50px 0;
+  }
+
+  .ours-projects-section {
+    margin-top: 1600px;
+  }
+
+  .ours-projects-section-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .about-us-section-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .about-us-section-feedback-input-container {
+    display: block;
+  }
+
+  .about-us-section-feedback-input {
+    display: block;
+    width: 70%;
+    border-radius: 30px;
+    margin: 0 auto;
+  }
+
+  .about-us-section-feedback-input-btn {
+    display: block;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .about-us-section-img-video {
+    margin: 0;
+    width: 400px;
+    padding: 40px;
+    background-size: 100%;
+  }
+
+  .feedback-container {
+    margin-top: 110px;
+    padding: 0;
+  }
+
+  .about-us-section-underline {
+    margin: 50px 0 0 0;
+  }
+
+  .about-us-section-feedback-warning {
+    padding-bottom: 40px;
+  }
+
+  .ours-projects-section-image {
+    margin-top: 20px;
+  }
+
+  .ours-projects-section-description {
+    margin-top: 20px;
+  }
+
+  .services-section-cards img {
+    width: 280px;
+    text-align: center;
+  }
+
+  .about-us-section {
+    background-size: 100% 250px;
+  }
+
+  .about-us-section-video-btn {
+    border: none;
+  }
 }
