@@ -5,6 +5,8 @@
 /tmp
 /out-tsc
 
+/styles/main.css.map
+
 # Runtime data
 pids
 *.pid
