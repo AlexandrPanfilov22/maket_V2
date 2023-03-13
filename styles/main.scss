@@ -529,7 +529,7 @@ ul {
   color: $gray;
 }
 
-@media screen and (min-width: 480px) and (max-width: 576px){
+@media screen and (min-width: 360px) and (max-width: 576px){
 
   .main-section {
     min-height: 480px;
@@ -624,6 +624,10 @@ ul {
 
   .services-card {
     text-align: center;
+
+    img {
+      width: 300px;
+    }
   }
 
   .services-card-link {
@@ -664,6 +668,7 @@ ul {
 
   .about-us-img-video {
     width: 370px;
+    margin: auto;
     padding: 40px;
     background-size: 100%;
   }
