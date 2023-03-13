@@ -33,12 +33,12 @@ $light-gray: #F6F6F8;
 
 .navbar {
   justify-content: end;
+  padding-bottom: 0;
 }
 
 .navbar-collapse {
   justify-content: end;
   padding-top: 40px;
-  padding-bottom: 40px;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -48,21 +48,20 @@ $light-gray: #F6F6F8;
   line-height: 20px;
   color: $white;
   margin-left: 40px;
+  padding-bottom: 39px;
+
+  border-bottom: 1px solid transparent;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
   color: $white;
-  border-bottom: 2px solid $white;
+  border-bottom: 1px solid $white;
 }
 
 .navbar-light .navbar-toggler {
   color: $white;
   border-color: $white;
   background-color: $white;
-}
-
-ul {
-  margin-bottom: 0px;
 }
 
 .container {
@@ -72,37 +71,6 @@ ul {
 .main-section {
   min-height: 900px;
   background: url("../img/main_background.png") no-repeat;
-  background-size: cover;
-}
-
-.header {
-  display: block;
-  padding: 40px 0 40px 450px;
-  color: $white;
-}
-
-.header-elements li{
-  display: inline-block;
-
-  padding-right: 40px;
-  color: $white;
-
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 0;
-
-  a:active,
-  a:hover {
-    border-bottom: 2px solid $white;
-  }
-  a {
-    text-decoration: none;
-    color: $white;;
-  }
-}
-
-.header_elements li:last-child{
-  padding: 0;
 }
 
 .line {
@@ -127,7 +95,6 @@ ul {
 
   font-weight: 800;
   font-size: 48px;
-  text-align: center;
 
   color: $white;
 }
@@ -499,6 +466,7 @@ ul {
 @media screen and (min-width: 360px) and (max-width: 576px){
 
   .main-section {
+    padding-bottom: 40px;
     min-height: 480px;
   }
 
@@ -516,10 +484,11 @@ ul {
   .main-description {
     margin: 0;
     padding-top: 60px;
+    padding-bottom: 20px;
   }
 
   .main-title {
-    font-size: 34px;
+    font-size: 28px;
   }
 
   .mobile-app-container {

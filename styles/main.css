@@ -20,12 +20,12 @@
   background-color: #F6F6F8; }
 
 .navbar {
-  justify-content: end; }
+  justify-content: end;
+  padding-bottom: 0; }
 
 .navbar-collapse {
   justify-content: end;
-  padding-top: 40px;
-  padding-bottom: 40px; }
+  padding-top: 40px; }
 
 .navbar-light .navbar-nav .nav-link {
   text-align: end;
@@ -33,49 +33,25 @@
   font-size: 16px;
   line-height: 20px;
   color: #FFFFFF;
-  margin-left: 40px; }
+  margin-left: 40px;
+  padding-bottom: 39px;
+  border-bottom: 1px solid transparent; }
 
 .navbar-light .navbar-nav .nav-link:hover {
   color: #FFFFFF;
-  border-bottom: 2px solid #FFFFFF; }
+  border-bottom: 1px solid #FFFFFF; }
 
 .navbar-light .navbar-toggler {
   color: #FFFFFF;
   border-color: #FFFFFF;
   background-color: #FFFFFF; }
 
-ul {
-  margin-bottom: 0px; }
-
 .container {
   max-width: 1110px; }
 
 .main-section {
   min-height: 900px;
-  background: url("../img/main_background.png") no-repeat;
-  background-size: cover; }
-
-.header {
-  display: block;
-  padding: 40px 0 40px 450px;
-  color: #FFFFFF; }
-
-.header-elements li {
-  display: inline-block;
-  padding-right: 40px;
-  color: #FFFFFF;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 0; }
-  .header-elements li a:active,
-  .header-elements li a:hover {
-    border-bottom: 2px solid #FFFFFF; }
-  .header-elements li a {
-    text-decoration: none;
-    color: #FFFFFF; }
-
-.header_elements li:last-child {
-  padding: 0; }
+  background: url("../img/main_background.png") no-repeat; }
 
 .line {
   margin: 0;
@@ -95,7 +71,6 @@ ul {
   margin-bottom: 50px;
   font-weight: 800;
   font-size: 48px;
-  text-align: center;
   color: #FFFFFF; }
 
 .primary-button {
@@ -371,6 +346,7 @@ ul {
 
 @media screen and (min-width: 360px) and (max-width: 576px) {
   .main-section {
+    padding-bottom: 40px;
     min-height: 480px; }
 
   .dropdown-item a:active,
@@ -382,10 +358,11 @@ ul {
 
   .main-description {
     margin: 0;
-    padding-top: 60px; }
+    padding-top: 60px;
+    padding-bottom: 20px; }
 
   .main-title {
-    font-size: 34px; }
+    font-size: 28px; }
 
   .mobile-app-container {
     padding-top: 40px;
