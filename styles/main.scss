@@ -31,15 +31,28 @@ $light-gray: #F6F6F8;
   background-color: $light-gray;
 }
 
-.navbar-collapse {
+.navbar {
   justify-content: end;
 }
 
+.navbar-collapse {
+  justify-content: end;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 .navbar-light .navbar-nav .nav-link {
+  text-align: end;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: $white;
+  margin-left: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: $white;
+  border-bottom: 2px solid $white;
 }
 
 .navbar-light .navbar-toggler {
