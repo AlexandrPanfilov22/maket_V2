@@ -3,6 +3,7 @@ $black: #000000;
 $dark: #323232;
 $gray: #999999;
 $blue: #4985FF;
+$light-gray: #F6F6F8;
 
 * {
   margin: 0;
@@ -23,6 +24,10 @@ $blue: #4985FF;
 
 .color-gray {
   color: $gray;
+}
+
+.background-gray {
+  background-color: $light-gray;
 }
 
 ul {
@@ -131,10 +136,8 @@ ul {
 }
 
 .description-small {
-  font-weight: 400;
+  @extend .description;
   font-size: 14px;
-  line-height: 25px;
-  color: $gray;
 }
 
 .mobile-card {
@@ -179,10 +182,6 @@ ul {
   height: 90px;
   border: 1px solid $blue;
   border-radius: 50%;
-}
-
-.development-standards-section {
-  background: #F6F6F8;
 }
 
 .development-standards-container {
@@ -245,10 +244,6 @@ ul {
     text-decoration-line: underline;
     color: $blue;
   }
-}
-
-.ours-projects-section {
-  background: #F6F6F8;
 }
 
 .ours-projects-container {
@@ -366,10 +361,6 @@ ul {
   font-size: 13px;
   text-align: center;
   color: $gray;
-}
-
-.footer {
-  background: #F6F6F8;
 }
 
 .footer-container {

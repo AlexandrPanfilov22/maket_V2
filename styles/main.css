@@ -16,6 +16,9 @@
 .color-gray {
   color: #999999; }
 
+.background-gray {
+  background-color: #F6F6F8; }
+
 ul {
   margin-bottom: 0px; }
 
@@ -91,17 +94,14 @@ ul {
   font-weight: 700;
   font-size: 36px; }
 
-.description {
+.description, .description-small {
   font-weight: 400;
   font-size: 16px;
   line-height: 25px;
   color: #999999; }
 
 .description-small {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 25px;
-  color: #999999; }
+  font-size: 14px; }
 
 .mobile-card {
   margin-bottom: 55px; }
@@ -111,7 +111,7 @@ ul {
     font-weight: 600;
     font-size: 18px;
     color: #000000; }
-  .mobile-card .description {
+  .mobile-card .description, .mobile-card .description-small {
     padding-right: 40px;
     text-align: center; }
   .mobile-card .image {
@@ -135,9 +135,6 @@ ul {
   height: 90px;
   border: 1px solid #4985FF;
   border-radius: 50%; }
-
-.development-standards-section {
-  background: #F6F6F8; }
 
 .development-standards-container {
   padding: 80px 0 70px 0; }
@@ -184,9 +181,6 @@ ul {
   font-size: 16px;
   text-decoration-line: underline;
   color: #4985FF; }
-
-.ours-projects-section {
-  background: #F6F6F8; }
 
 .ours-projects-container {
   padding-top: 100px;
@@ -278,9 +272,6 @@ ul {
   font-size: 13px;
   text-align: center;
   color: #999999; }
-
-.footer {
-  background: #F6F6F8; }
 
 .footer-container {
   padding-top: 70px; }
