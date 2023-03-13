@@ -122,7 +122,8 @@ ul {
 }
 
 .mobile-app-container {
-  padding: 110px 0 105px 0;
+  padding-top: 110px;
+  padding-bottom: 105px;
 }
 
 .title {
@@ -284,7 +285,8 @@ ul {
 }
 
 .ours-projects-container {
-  padding: 100px 0 130px 0;
+  padding-top: 100px;
+  padding-bottom: 130px;
 }
 
 .about-us-section {
@@ -297,13 +299,13 @@ ul {
 }
 
 .about-us-container {
-  padding: 70px 0 85px 0;
+  padding-top: 70px;
+  padding-bottom: 85px;
 }
 
 .about-us-img-video {
   text-align: center;
 
-  min-height: 430px;
   margin: 70px 0px 85px 70px;
   padding: 165px 335px;
   background: url("../img/big_city.png") no-repeat;
@@ -383,7 +385,7 @@ ul {
   border-radius: 30px 0px 0px 30px;
 }
 
-.feedback-input-btn {
+.feedback-input-button {
   display: inline-block;
   width: 190px;
   padding: 11px 36px 11px 26px;
@@ -422,9 +424,9 @@ ul {
   margin-left: 0;
   padding-left: 0;
 
-    li {
-      list-style: none;
-    }
+  li {
+    list-style: none;
+  }
 }
 
 .footer-title {
@@ -442,16 +444,16 @@ ul {
   font-size: 14px;
   color: $gray;
 
-    a{
-      color: $gray;
-      text-decoration: none;
-      padding-bottom: 5px;
-    }
+  a{
+    color: $gray;
+    text-decoration: none;
+    padding-bottom: 5px;
+  }
 
-    a::before{
-      margin-right: 15px;
-      content: url("../icons/footer_msg.png");
-    }
+  a::before{
+    margin-right: 15px;
+    content: url("../icons/footer_msg.png");
+  }
 }
 
 .footer-call {
@@ -462,15 +464,15 @@ ul {
   font-size: 14px;
   color: $gray;
 
-    a{
-      color: $gray;
-      text-decoration: none;
-    }
+  a{
+    color: $gray;
+    text-decoration: none;
+  }
 
-    a::before {
-      margin-right: 15px;
-      content: url("../icons/footer_call.png");
-    }
+  a::before {
+    margin-right: 15px;
+    content: url("../icons/footer_call.png");
+  }
 }
 
 .footer-place {
@@ -526,3 +528,378 @@ ul {
   text-align: center;
   color: $gray;
 }
+
+@media screen and (min-width: 480px) and (max-width: 576px){
+
+  .main-section {
+    min-height: 480px;
+  }
+
+  .main-header {
+    display: none;
+  }
+
+  .touch-line {
+    display: none;
+  }
+
+  .main-description {
+    margin: 0;
+    padding-top: 60px;
+  }
+
+  .main-title {
+    font-size: 34px;
+  }
+
+  .mobile-app-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .mobile-app-card-title {
+    margin: 0 0 15px 17px;
+  }
+
+  .ours-projects-section-image-item {
+    margin-top: 20px;
+  }
+
+  .ours-projects-section-image-item img {
+    width: 220px;
+  }
+
+  .development-standards-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .development-standards-title {
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .development-standards-link {
+    text-align: center;
+  }
+
+  .development-standards-descriprion {
+    text-align: center;
+  }
+
+  .development-standards-section-image {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 30px;
+  }
+
+  .development-standards-container img{
+    width: 300px;
+  }
+
+  .project-card-icon {
+    margin-top: 20px;
+  }
+
+  .project-card-title {
+    display: block;
+    margin: 0;
+  }
+
+  .services-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .services-section-title {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .services-section-button{
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .services-card {
+    text-align: center;
+  }
+
+  .services-card-link {
+    margin-bottom: 50px;
+  }
+
+  .ours-projects-section {
+    margin-top: 1650px;
+  }
+
+  .ours-projects-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .about-us-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .feedback-input-container {
+    display: block;
+  }
+
+  .feedback-input {
+    display: block;
+    width: 70%;
+    border-radius: 30px;
+    margin: 0 auto;
+  }
+
+  .feedback-input-button {
+    display: block;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .about-us-img-video {
+    width: 370px;
+    padding: 40px;
+    background-size: 100%;
+  }
+
+  .feedback-container {
+    margin-top: 40px;
+    padding: 0;
+  }
+
+  .about-us-section-feedback-warning {
+    padding-bottom: 40px;
+  }
+
+  .ours-projects-section-image {
+    margin-top: 20px;
+  }
+
+  .ours-projects-section-description {
+    margin-top: 20px;
+  }
+
+  .about-us-section {
+    margin-bottom: 0px;
+    background-size: 100% 250px;
+  }
+
+  .about-us-video-btn {
+    border: none;
+  }
+
+  .feedback-container {
+    padding-bottom: 40px;
+  }
+
+  .footer-container {
+    padding-top: 0;
+  }
+
+  .footer-title {
+    margin-top: 40px;
+  }
+
+  .footer-item {
+    margin-top: 20px;
+  }
+
+  .footer-msg {
+    margin-top: 20px;
+  }
+
+  .footer-call {
+    margin-top: 20px;
+  }
+
+  .footer-place {
+    margin-top: 20px;
+  }
+}
+//
+//@media screen and (min-width: 360px) and (max-width: 479px) {
+//
+//
+//  .main-section {
+//    min-height: 480px;
+//  }
+//
+//  .main-header {
+//    display: none;
+//  }
+//
+//  .touch-line {
+//    display: none;
+//  }
+//
+//  .line {
+//    display: none;
+//  }
+//
+//  .main-section-description {
+//    margin: 0;
+//    padding-top: 60px;
+//  }
+//
+//  .main-section-title {
+//    font-size: 34px;
+//  }
+//
+//  .mobile-app-section-container {
+//    padding-top: 40px;
+//    padding-bottom: 40px;
+//  }
+//
+//  .mobile-app-section-icon-title {
+//    margin-top: 30px;
+//  }
+//
+//  .ours-projects-section-image-item {
+//    margin-top: 20px;
+//  }
+//
+//  .development-standards-section-container {
+//    padding-top: 80px;
+//    padding-bottom: 70px;
+//  }
+//
+//  .development-standards-section-title {
+//    margin-top: 0;
+//    text-align: center;
+//  }
+//
+//  .development-standards-section-link {
+//    text-align: center;
+//  }
+//
+//  .development-standards-section-descriprion {
+//    text-align: center;
+//  }
+//
+//  .development-standards-section-image {
+//    display: flex;
+//    justify-content: center;
+//
+//    margin-top: 30px;
+//  }
+//
+//  .development-standards-section-container img{
+//    width: 300px;
+//  }
+//
+//  .development-standards-section-icon-container{
+//    text-align: center;
+//  }
+//
+//  .project-card-icon {
+//    margin-top: 20px;
+//  }
+//
+//  .project-card-title {
+//    display: block;
+//    margin: 0;
+//  }
+//
+//  .services-section {
+//    padding: 40px 0;
+//  }
+//
+//  .services-section-title {
+//    font-size: 28px;
+//    text-align: center;
+//  }
+//
+//  .services-section-button{
+//    justify-content: center;
+//
+//    margin-top: 20px;
+//  }
+//
+//  .services-card-link {
+//    margin-bottom: 50px;
+//  }
+//
+//  .underline {
+//    margin: 50px 0;
+//  }
+//
+//  .ours-projects-section {
+//    margin-top: 1600px;
+//  }
+//
+//  .ours-projects-section-container {
+//    padding-top: 40px;
+//    padding-bottom: 40px;
+//  }
+//
+//  .about-us-container {
+//    padding-top: 40px;
+//    padding-bottom: 40px;
+//  }
+//
+//  .feedback-input-container {
+//    display: block;
+//  }
+//
+//  .feedback-input {
+//    display: block;
+//    width: 70%;
+//    border-radius: 30px;
+//    margin: 0 auto;
+//  }
+//
+//  .feedback-input-btn {
+//    display: block;
+//    border-radius: 30px;
+//    margin: 0 auto;
+//    margin-top: 20px;
+//  }
+//
+//  .about-us-img-video {
+//    margin: 0;
+//    margin-bottom: 40px;
+//    width: 400px;
+//    padding: 40px;
+//    background-size: 100%;
+//  }
+//
+//  .feedback-container {
+//    margin-top: 30px;
+//    padding: 0;
+//  }
+//
+//  .about-us-section-underline {
+//    margin: 50px 0 0 0;
+//  }
+//
+//  .about-us-section-feedback-warning {
+//    padding-bottom: 40px;
+//  }
+//
+//  .ours-projects-section-image {
+//    margin-top: 20px;
+//  }
+//
+//  .ours-projects-section-description {
+//    margin-top: 20px;
+//  }
+//
+//  .services-card img {
+//    width: 280px;
+//    text-align: center;
+//  }
+//
+//  .about-us-section {
+//    background-size: 100% 250px;
+//  }
+//
+//  .about-us-video-btn {
+//    border: none;
+//  }
+//}
