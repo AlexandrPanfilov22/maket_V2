@@ -19,6 +19,20 @@
 .background-gray {
   background-color: #F6F6F8; }
 
+.navbar-collapse {
+  justify-content: end; }
+
+.navbar-light .navbar-nav .nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF; }
+
+.navbar-light .navbar-toggler {
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+  background-color: #FFFFFF; }
+
 ul {
   margin-bottom: 0px; }
 
@@ -32,7 +46,7 @@ ul {
 
 .header {
   display: block;
-  padding: 40px 0 40px 500px;
+  padding: 40px 0 40px 450px;
   color: #FFFFFF; }
 
 .header-elements li {
@@ -348,8 +362,12 @@ ul {
   .main-section {
     min-height: 480px; }
 
-  .header {
-    display: none; }
+  .dropdown-item a:active,
+  .dropdown-item a:hover {
+    border-bottom: 2px solid #000000; }
+  .dropdown-item a {
+    text-decoration: none;
+    color: #000000; }
 
   .main-description {
     margin: 0;
