@@ -10,7 +10,7 @@
 .color-black {
   color: #000000; }
 
-.color-full-black {
+.dark {
   color: #323232; }
 
 .color-gray {
@@ -35,17 +35,17 @@ ul {
   padding: 40px 0 40px 500px;
   color: #FFFFFF; }
 
-.header_elements li {
+.header-elements li {
   display: inline-block;
   padding-right: 40px;
   color: #FFFFFF;
   font-weight: 500;
   font-size: 16px;
   line-height: 0; }
-  .header_elements li a:active,
-  .header_elements li a:hover {
+  .header-elements li a:active,
+  .header-elements li a:hover {
     border-bottom: 2px solid #FFFFFF; }
-  .header_elements li a {
+  .header-elements li a {
     text-decoration: none;
     color: #FFFFFF; }
 
@@ -119,7 +119,7 @@ ul {
     height: 40px;
     background: url("../icons/chertej.png"); }
 
-.mobile-card-main-benefit {
+.mobile-card-main-circle {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -129,7 +129,7 @@ ul {
   border: 1px solid #E0E0E0;
   border-radius: 50%; }
 
-.mobile-card-child-benefit {
+.mobile-card-child-circle {
   padding: 25px;
   width: 90px;
   height: 90px;
@@ -351,9 +351,6 @@ ul {
   .header {
     display: none; }
 
-  .touch-line {
-    display: none; }
-
   .main-description {
     margin: 0;
     padding-top: 60px; }
@@ -364,15 +361,6 @@ ul {
   .mobile-app-container {
     padding-top: 40px;
     padding-bottom: 40px; }
-
-  .mobile-app-card-title {
-    margin: 0 0 15px 17px; }
-
-  .ours-projects-image-item {
-    margin-bottom: 20px; }
-
-  .ours-projects-image-item img {
-    width: 220px; }
 
   .development-standards-container {
     padding-top: 40px;
@@ -409,9 +397,6 @@ ul {
     font-size: 28px;
     text-align: center; }
 
-  .services-button {
-    justify-content: center; }
-
   .services-card {
     text-align: center; }
     .services-card img {
@@ -419,6 +404,10 @@ ul {
 
   .link {
     margin-bottom: 50px; }
+
+  .ours-projects-image-item {
+    text-align: center;
+    margin-bottom: 20px; }
 
   .ours-projects-section {
     margin-top: 1650px; }
@@ -447,13 +436,10 @@ ul {
     margin: 0 auto; }
 
   .about-us-img-video {
-    width: 370px;
+    width: 340px;
     margin: auto;
     padding: 40px;
     background-size: 100%; }
-
-  .about-us-section-feedback-warning {
-    padding-bottom: 40px; }
 
   .about-us-section {
     margin-bottom: 0px;

@@ -15,12 +15,12 @@
 <body>
 <section class="main-section">
     <header class="container header">
-        <ul class="header_elements">
+        <ul class="header-elements">
             <li><a href="#">Главная</a></li>
             <li><a href="#ours-projects">Наши проекты</a></li>
             <li><a href="#services">Услуги</a></li>
             <li><a href="#news">Новости</a></li>
-            <li><a href="#">Контакты</a></li>
+            <li><a href="#contacts">Контакты</a></li>
         </ul>
     </header>
     <hr class="line">
@@ -37,7 +37,7 @@
 
 <section class="container mobile-app-container">
     <div class="row">
-        <h2 class="col-10 offset-1 title color-full-black text-center mb-5">
+        <h2 class="col-10 offset-1 title dark text-center mb-5">
             Мы создаем мобильные приложения для крупных корпораций
         </h2>
     </div>
@@ -50,44 +50,47 @@
     </div>
 
     <div class="row">
-        <div class="col-xl-4 col-12 mobile-card">
-            <div class="d-flex">
-                <div class="mobile-card-main-benefit">
-                    <div class="mobile-card-child-benefit">
+        <div class="col-xl-4 col-12">
+            <div class="mobile-card d-flex">
+                <div class="mobile-card-main-circle">
+                    <div class="mobile-card-child-circle">
                         <div class="image"></div>
                     </div>
                 </div>
                 <div class="d-flex flex-column">
                     <h3 class="title">Создание сайтов</h3>
-                    <p class="description-small description">Lorem Ipsum - это текст- "рыба", часто используе в печати и вэб-дизайне.</p>
+                    <p class="description-small description">Lorem Ipsum - это текст- "рыба", часто используе в печати и
+                        вэб-дизайне.</p>
                 </div>
             </div>
         </div>
 
-        <div class="col-xl-4 col-12 mobile-card">
-            <div class="d-flex">
-                <div class="mobile-card-main-benefit">
-                    <div class="mobile-card-child-benefit">
+        <div class="col-xl-4 col-12">
+            <div class="mobile-card d-flex">
+                <div class="mobile-card-main-circle">
+                    <div class="mobile-card-child-circle">
                         <div class="image"></div>
                     </div>
                 </div>
                 <div class="d-flex flex-column">
                     <h3 class="title">Создание сайтов</h3>
-                    <p class="description-small description">Lorem Ipsum - это текст- "рыба", часто используе в печати и вэб-дизайне.</p>
+                    <p class="description-small description">Lorem Ipsum - это текст- "рыба", часто используе в печати и
+                        вэб-дизайне.</p>
                 </div>
             </div>
         </div>
 
-        <div class="col-xl-4 col-12 mobile-card">
-            <div class="d-flex">
-                <div class="mobile-card-main-benefit">
-                    <div class="mobile-card-child-benefit">
+        <div class="col-xl-4 col-12">
+            <div class="mobile-card d-flex">
+                <div class="mobile-card-main-circle">
+                    <div class="mobile-card-child-circle">
                         <div class="image"></div>
                     </div>
                 </div>
                 <div class="d-flex flex-column">
                     <h3 class="title">Создание сайтов</h3>
-                    <p class="description-small description">Lorem Ipsum - это текст- "рыба", часто используе в печати и вэб-дизайне.</p>
+                    <p class="description-small description">Lorem Ipsum - это текст- "рыба", часто используе в печати и
+                        вэб-дизайне.</p>
                 </div>
             </div>
         </div>
@@ -99,17 +102,19 @@
     <div class="container development-standards-container">
         <div class="row">
             <div class="col-12 col-xl-5">
-                <h2 class="title development-standards-title color-full-black">Высокие стандарты разработки</h2>
+                <h2 class="title development-standards-title dark">Высокие стандарты разработки</h2>
                 <p class="description mb-5 development-standards-descriprion">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.  стандартной "рыбой" для текстов на латинице с начала XVI века. </p>
-                <a class="development-standards-link" href="#">Подробнее о компании</a>
+                <a class="development-standards-link d-block" href="#">Подробнее о компании</a>
             </div>
-            <div class="col-12 col-xl-6 offset-xl-1 development-standards-image">
-                <img src="img/laptops.png" alt="laptop-image">
+            <div class="col-12 col-xl-6 offset-xl-1">
+                <div class="development-standards-image">
+                    <img src="img/laptops.png" alt="laptop-image">
+                </div>
             </div>
         </div>
         <hr class="line my-5">
 
-        <div class="row development-standards-icon-container">
+        <div class="row">
             <div class="col offset-xl-1">
                 <div class="project-card-icon"></div>
                 <div class="project-card-title">125</div>
@@ -146,29 +151,37 @@
 <section class="services-section" id="services">
     <div class="container">
         <div class="row mb-5">
-            <h2 class="col-12 col-xl-6 title color-white services-title">Наши работы, на которых мы специализируемся</h2>
-            <div class="col-12 col-xl-6 d-flex services-button align-self-center justify-content-xl-end">
+            <div class="col-12 col-xl-6">
+                <h2 class="title color-white services-title">Наши работы, на которых мы специализируемся</h2>
+            </div>
+            <div class="col-12 col-xl-6 d-flex justify-content-center align-self-center justify-content-xl-end">
                 <button class="primary-button">Все услуги</button>
             </div>
         </div>
         <div class="row">
-            <div class="col col-xl-4 services-card">
-                <img class="mb-4" src="img/office.png" alt="office-image">
-                <h3 class="title"><span class="text-primary">01.</span> Исследование и упаковка</h3>
-                <p class="description card-description">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
-                <a class="link d-block mb-5" href="#">Подробнее</a>
+            <div class="col col-xl-4">
+                <div class="services-card">
+                    <img class="mb-4" src="img/office.png" alt="office-image">
+                    <h3 class="title"><span class="text-primary">01.</span> Исследование и упаковка</h3>
+                    <p class="description card-description">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+                    <a class="link d-block mb-5" href="#">Подробнее</a>
+                </div>
             </div>
-            <div class="col col-xl-4 services-card">
-                <img class="mb-4" src="img/office.png" alt="office-image">
-                <h3 class="title"><span class="text-primary">01.</span> Исследование и упаковка</h3>
-                <p class="description card-description">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
-                <a class="link d-block mb-5" href="#">Подробнее</a>
+            <div class="col col-xl-4">
+                <div class="services-card">
+                    <img class="mb-4" src="img/office.png" alt="office-image">
+                    <h3 class="title"><span class="text-primary">01.</span> Исследование и упаковка</h3>
+                    <p class="description card-description">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+                    <a class="link d-block mb-5" href="#">Подробнее</a>
+                </div>
             </div>
-            <div class="col col-xl-4 services-card">
-                <img class="mb-4" src="img/office.png" alt="office-image">
-                <h3 class="title"><span class="text-primary">01.</span> Исследование и упаковка</h3>
-                <p class="description card-description">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
-                <a class="link" href="#">Подробнее</a>
+            <div class="col col-xl-4">
+                <div class="services-card">
+                    <img class="mb-4" src="img/office.png" alt="office-image">
+                    <h3 class="title"><span class="text-primary">01.</span> Исследование и упаковка</h3>
+                    <p class="description card-description">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+                    <a class="link d-block mb-5" href="#">Подробнее</a>
+                </div>
             </div>
         </div>
         <hr class="line my-5">
@@ -177,22 +190,41 @@
 
 <section class="ours-projects-section background-gray" id="ours-projects">
     <div class="container ours-projects-container">
-        <h2 class="title color-full-black text-center mb-5">Наши проекты</h2>
+        <h2 class="title dark text-center mb-5">Наши проекты</h2>
         <div class="row">
-            <div class="col-8 offset-2 text-center">
+            <div class="col-8 offset-2">
                 <p class="description mb-5 text-center">Lorem Ipsum - это текст-"рыба", часто
                     используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с
                     начала XVI века.
                 </p>
             </div>
         </div>
-        <div class="row text-center">
-            <div class="col-xl-3 col-12 ours-projects-image-item"><img src="img/code_photo.png" alt="code-image"></div>
-            <div class="col-xl-3 col-12 ours-projects-image-item"><img src="img/code_photo.png" alt="code-image"></div>
-            <div class="col-xl-3 col-12 ours-projects-image-item"><img src="img/code_photo.png" alt="code-image"></div>
-            <div class="col-xl-3 col-12 ours-projects-image-item"><img src="img/code_photo.png" alt="code-image"></div>
+        <div class="row">
+            <div class="col-xl-3 col-12">
+                <div class="ours-projects-image-item">
+                    <img src="img/code_photo.png" alt="code-image">
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-12">
+                <div class="ours-projects-image-item">
+                    <img src="img/code_photo.png" alt="code-image">
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-12">
+                <div class="ours-projects-image-item">
+                    <img src="img/code_photo.png" alt="code-image">
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-12">
+                <div class="ours-projects-image-item mb-5">
+                    <img src="img/code_photo.png" alt="code-image">
+                </div>
+            </div>
         </div>
-        <button class="primary-button mx-auto mt-5">Все проекты</button>
+        <button class="primary-button mx-auto">Все проекты</button>
     </div>
 </section>
 
@@ -201,12 +233,14 @@
         <h2 class="mb-4 title color-white text-center">Видео о нашей работе</h2>
         <p class="text-center description text-white">Просто посмотрите, как мы работаем</p>
         <div class="row">
-            <div class="col-xl-12 col-xs-4 about-us-img-video">
-                <div class="about-us-video-btn">
-                    <div class="about-us-video-launch">
-                        <img src="icons/video.png">
+            <div class="col-xl-12">
+                <div class="about-us-img-video">
+                    <div class="about-us-video-btn">
+                        <div class="about-us-video-launch">
+                            <img src="icons/video.png">
+                        </div>
+                        <span class="about-us-video-text">Смотреть видео</span>
                     </div>
-                    <span class="about-us-video-text">Смотреть видео</span>
                 </div>
             </div>
         </div>
@@ -224,7 +258,7 @@
     <p class="feedback-warning">Мы не шлем спам, и передаем никому ваши данные.</p>
 </section>
 
-<footer class="footer background-gray">
+<footer class="footer background-gray" id="contacts">
     <div class="container footer-container">
         <div class="row">
             <div class="col-xl-3 col-12">

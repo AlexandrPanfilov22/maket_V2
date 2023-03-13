@@ -18,7 +18,8 @@ $light-gray: #F6F6F8;
 .color-black {
   color: $black;
 }
-.color-full-black {
+
+.dark {
   color: $dark;
 }
 
@@ -50,7 +51,7 @@ ul {
   color: $white;
 }
 
-.header_elements li{
+.header-elements li{
   display: inline-block;
 
   padding-right: 40px;
@@ -163,7 +164,7 @@ ul {
   }
 }
 
-.mobile-card-main-benefit {
+.mobile-card-main-circle {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -175,7 +176,7 @@ ul {
   border-radius: 50%;
 }
 
-.mobile-card-child-benefit {
+.mobile-card-child-circle {
   padding: 25px;
 
   width: 90px;
@@ -475,10 +476,6 @@ ul {
     display: none;
   }
 
-  .touch-line {
-    display: none;
-  }
-
   .main-description {
     margin: 0;
     padding-top: 60px;
@@ -491,18 +488,6 @@ ul {
   .mobile-app-container {
     padding-top: 40px;
     padding-bottom: 40px;
-  }
-
-  .mobile-app-card-title {
-    margin: 0 0 15px 17px;
-  }
-
-  .ours-projects-image-item {
-    margin-bottom: 20px;
-  }
-
-  .ours-projects-image-item img {
-    width: 220px;
   }
 
   .development-standards-container {
@@ -544,14 +529,10 @@ ul {
   }
 
   .services-title {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 
     font-size: 28px;
     text-align: center;
-  }
-
-  .services-button{
-    justify-content: center;
   }
 
   .services-card {
@@ -564,6 +545,11 @@ ul {
 
   .link {
     margin-bottom: 50px;
+  }
+
+  .ours-projects-image-item {
+    text-align: center;
+    margin-bottom: 20px;
   }
 
   .ours-projects-section {
@@ -599,14 +585,10 @@ ul {
   }
 
   .about-us-img-video {
-    width: 370px;
+    width: 340px;
     margin: auto;
     padding: 40px;
     background-size: 100%;
-  }
-
-  .about-us-section-feedback-warning {
-    padding-bottom: 40px;
   }
 
   .about-us-section {
