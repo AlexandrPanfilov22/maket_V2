@@ -218,10 +218,10 @@ $light-gray: #F6F6F8;
 }
 
 .services-section {
-  margin-bottom: 490px;
+  //margin-bottom: 490px;
   padding-top: 100px;
-  height: 490px;
-  background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4 50%;
+  padding-bottom: 85px;
+  background: linear-gradient(180deg, #504DC2 50%, $white 50%);
 }
 
 .services-card {
@@ -547,6 +547,16 @@ $light-gray: #F6F6F8;
     img {
       width: 300px;
     }
+
+    .adpative-card {
+      .title {
+        color: $white;
+      }
+
+      .card-description {
+        color: $white;
+      }
+    }
   }
 
   .link {
@@ -559,7 +569,7 @@ $light-gray: #F6F6F8;
   }
 
   .ours-projects-section {
-    margin-top: 1500px;
+    //margin-top: 1500px;
   }
 
   .ours-projects-container {
