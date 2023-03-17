@@ -6,6 +6,7 @@
 /out-tsc
 
 # Runtime data
+*.map
 pids
 *.pid
 *.seed
@@ -90,3 +91,4 @@ lerna-debug.log
 # System Files
 .DS_Store
 Thumbs.db
+/.sass-cache
