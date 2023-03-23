@@ -24,7 +24,7 @@ function addNewCard() {
     card.className = 'services-card mb-5 mb-xl-0';
 
     imageContainer.className = 'services-card mb-5 mb-xl-0';
-    image.className = 'services-card mb-5 mb-xl-0';
+    image.className = 'mb-4';
     image.setAttribute('src', 'img/office.png');
 
     titleContainer.className = 'title';
