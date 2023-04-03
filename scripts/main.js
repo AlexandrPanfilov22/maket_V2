@@ -37,6 +37,7 @@ function addNewCard() {
     description.innerHTML = 'Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.'
 
     link.className = 'link d-block';
+    link.setAttribute('href', '#');
     link.innerHTML = 'Подробнее';
 
     cardContainer.append(card);
