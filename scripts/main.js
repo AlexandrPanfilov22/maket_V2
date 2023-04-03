@@ -1,22 +1,21 @@
-const burgerBtn = document.querySelector('.menu-button');
-const menu = document.querySelector('.menu');
-
-const services = document.querySelector('.services-card-container');
-const addBtn = document.querySelector('.add-card');
-
 function toggleMenu() {
+    const menu = document.querySelector('ul');
     menu.classList.toggle('menu');
 }
-burgerBtn.addEventListener('click', toggleMenu);
 
 function addNewCard() {
+    const services = document.querySelector('.services-card-container');
+
     const cardContainer = document.createElement('div');
     const card = document.createElement('div');
+
     const imageContainer = document.createElement('div');
     const image = document.createElement('img');
+
     const titleContainer = document.createElement('h3');
     const title = document.createElement('span');
     const inTitle = document.createElement('span');
+
     const description = document.createElement('p');
     const link = document.createElement('a');
 
@@ -41,15 +40,17 @@ function addNewCard() {
     link.innerHTML = 'Подробнее';
 
     cardContainer.append(card);
+
     card.append(imageContainer);
     imageContainer.append(image);
+
     card.append(titleContainer);
     titleContainer.append(inTitle);
     titleContainer.append(title);
+
     card.append(description);
+
     card.append(link);
 
     services.append(cardContainer);
 }
-
-addBtn.addEventListener('click', addNewCard);
